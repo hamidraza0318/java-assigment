@@ -1,43 +1,4 @@
-// let array = ["ahmad","raza","hassan","fatimah"]// bohata sare deta ko aik sath likhna ho to array iske ilawa agar karna he to phir alag alag variable bnanan huga 
-            //  0     1       2         3 index 0zero se chalta he indexing yani counting or ye zero se starte huti he 
-// array[4] = "kamran"  //agar array men aik or value add karna he to index number ke hisab se number dalden 
-//  console.log(array.length)// array men kitni value parhi he to .lenght used karte he 
-// array ko string men bhi kikh sakte he 
-// array = "ahmad" //string ke anadr ye apka alpha bad ko ginke zero index se chladega jo index numer denge woh dedega 
-// console.log(array[4]);// sirf 1 value consol karwana he to index ke number ko consoe karwayge
 
-// rool ava 1 galati maff karta undefin ajata he  he 2 galati hugi to to erore ajayga 
-
-// chapter 16 array ading and removing
-// aray ke mathods
-// 1 mathod
-// .pop(); //ye array ke akhhir se 1 element ko remove kardeta he 
-//   // 2 mwthod
-//    .push(); //ye value add karedeta he bger index batay ye khud us value ko akhri last index men add kardega 
-  //  or push aik sath multiple value bhi add karsakta he 
-
-//   let array = ["ahmad","raza","hassan","fatimah"]
-//   // array .push("karime","raheem","safeer")
-//   // console.log (array)  //(array[5])
-//   array .pop()  // ye array ke akhir se last wala value remove kardega or jitni bar col karenege utnni bar remove kardega
-//  array .pop()
-//   console.log (array)  //(array[5])
-  // anser  ['ahmad', 'raza']
-// ........................./
-  // shift and unshift
-  // unshift array ke shoroh start men add karta he or jo .push ye last me add karta he 
-  // or shift ye strate se remove karta he .pop ye last se remove karta he 
-    // let array = ["ahmad","raza","hassan","fatimah"]
-    // array .unshift("raza ", "noshad",'furqan')
-//  console.log (array)  //(array[5])
-//  anser(7) ['raza ', 'noshad', 'furqan', 'ahmad', 'raza', 'hassan', 'fatimah']
-//     let array = ["ahmad","raza","hassan","fatimah"]
-// array .shift();
-// array.shift();
-// console.log   (array.length)// (array)  (array[2])
-// answer ['hassan', 'fatimah']
-
-// algorithum fifo (first in last out ) lifo (last in first out)
 
 
 
