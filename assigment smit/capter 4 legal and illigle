@@ -23,3 +23,177 @@
         // let break = "break";
         // Display this in your browser
         // document.write("Rules for naming JS variables <br> <br> <br> Varaible name can only contain numbers, $ and_ . For example $my, _name or name <br> variables must begin with a letter, $ or_ . For example :$name , _name or name <br> Variables name are case sensitive <br> Variables names should not be JS  keywords")
+cahpter 05 assigment 2
+// QUESTION 01
+// code kare agar apn ebara alpha basd likha he to uper case warna lover cas ajya 
+// aik aisa code kere jsme ap number likhe to woh batade ke code number he isi tarah or sab 
+    // let char = '8';  // Example input
+// Input Lena: Ek variable mein character ya string ka input lein.
+// ASCII Value Check Karna:
+// char.charCodeAt(0) ka istemal kar ke character ka ASCII value lein.
+// Check Karna:
+// Agar ASCII value 48 se 57 ke beech hai, to yeh ek number hai (0 se 9).
+// Agar ASCII value 65 se 90 ke beech hai, to yeh ek uppercase letter hai (A se Z).
+// Agar ASCII value 97 se 122 ke beech hai, to yeh ek lowercase letter hai (a se z).
+// Agar ASCII value in ranges mein nahi hai, to yeh na to number hai aur na hi letter.
+// Result Dikhana: Result ko print ya alert karein, jismein batayein ke input kya hai (number, uppercase letter, lowercase letter, ya kuch aur).
+// Example Flow:
+// User se character ka input lete hain.
+// ASCII value check karte hain aur type determine karte hain.
+// Final output user ko dikhate hain.
+// Yeh basic structure hai program ka, aur aap is logic ko kisi bhi programming language mein implement kar sakte hain.
+    // let char = 'A';  // Example 
+    // let ascii = char.charCodeAt(0);
+    // if (ascii >= 48 && ascii <= 57) {
+    //     console.log("It's a number.");
+    // } else if (ascii >= 97 && ascii <= 122) {
+    //     console.log("It's a lowercase letter.");
+    // } else {
+    //     console.log("It's neither a number nor a letter.");
+    // }
+    //     console.log("It's neither a number nor a letter.");}
+// extra prectice
+// var cracter =prompt("enter your number ");
+// if (cracter === "A"){
+//  console.log("it is a alpha bad ")
+// }
+// else if (cracter === "0" ){  
+//    console.log("it is a number")
+//    }
+// else if (cracter >= "20"&& cracter <="30" ){
+//  console.log("it is an uper case numer" )
+// }
+// else{
+//  console.log("thise is rong number ")
+// }
+  // }
+    //  QUESTION 02 
+    //  is tarah code kare ke phla vale or dosra same ho to eqal sho karway bara ho to bara chota h to chota karway
+    // aik jesa number agar user lagay to same number show karway
+    //     let num1 = +(prompt("Please Enter first number"));
+    //     let num2 = +(prompt("Please enter second number"));
+    //    if(num1 > num2){
+    //     console.log("The larger number is " + num1);
+    //     alert("The larger number is " + num1);
+    //    }
+    //    else if(num2 > num1)
+    //    {
+    //     console.log("The larger number is " + num2);
+    //     alert("The larger number is " + num2);
+    //    }
+    //    else {
+    //     console.log("Both integers are equaal");
+    //     alert("Both integers are equaal");
+    //    } 
+    // QUESTION 03
+    // aisa code kare ke agar + men nuber dale to psitive _men dale to nagitive or same 00 dale to zero show ho
+    
+        // let number = parseFloat(prompt("Enter any number"));
+        // if( number > 0){
+        //     alert("The entered number is positive number :" + number);
+        // }
+        // else if(number < 0){
+        //     alert("The entered number is negative number :" + number);
+        // }
+        // else {
+        //     alert("The entered number is zero :" +number);
+        // }
+// let num1 = prompt("Enter Your First Number ")
+// let num2 = prompt("Enter Your Second Number ")  
+// if (num1 > num2 ){
+//   console.log("Largest Number IS " +num1)
+//   alert("Largest Number IS First" +num1)
+// }
+// else if( num1 < num2){
+//   console.log("Largest Number IS second" +num2 )
+//   alert("Largest Number IS "  +num2)
+// }
+// else{
+//   console.log("Same Number IS both")
+// }
+ 
+//    let input= +prompt("Enter Your Number")
+//  if (input === 0 ){
+//   console.log("the number of Zero")
+//   alert("the number of Zero")
+//  }
+//  else if (input > 0 ){
+//   console.log("the number of Positive")
+//   alert("the number of Positive")
+//  }
+//  else if (input < 0 ){
+//   console.log("the number of Nagitive")
+//   alert("the number of  Nagitive")
+//  }
+//  else{
+//   console.log("Thise IS not A Number")
+//  } 
+
+        //  QUESTION 04
+ // is tarah code kare ke value value ke baraba ay to apka code tru or na ay to fals bataden or han vovel vovel ke barabar hun
+    //     console.log(true);
+    //     } else if (char === 'e' || char === 'E') {
+    //     console.log(true);
+    //     } else if (char === 'c' || char === 'C') {
+    //     } else if (char === 'i' || char === 'I') {
+    // console.log(true);
+    // } else if (char === 'o' || char === 'O') {
+    // console.log(true);
+    //     } else if (char === 'u' || char === 'U') {
+    // console.log(true);
+    // } else {
+    // console.log(false);
+    //   }
+      // }
+
+    // q 05 
+    // nahai samajh aya 
+    // code kare or bata user se pasord mach huta he to corect warna in corect or agar emty chordia to enter your pasword ka massage sghow karway
+    // let pasword = prompt("Enter your Pasword")
+    // if ( pasword === "Ahmad123"){
+    //   console.log("Correct Pasword"  )
+    //   alert("Correct Pasword"  )
+    // }
+    // else if (pasword === "" ){
+    //   console.log(" Please Enter your Pasword" )
+    // alert(" Please Enter your Pasword" )}
+    //   else{
+    //     console.log("please Enter your Correct Pasword")
+    //     alert(" Enter your Correct Pasword")
+    //   }
+// q no 6
+// input agar 18 ghnte se km he ya brabr he to good day or agar zyada he to god evining shoe karwao or if alse ko fix karke likhna he shorthand
+// 6. This if/else statement does not work. Try to fix it:
+// var greeting;        
+// var hour = 13;           
+// if (hour < 18) {
+// greeting = "Good day";}
+// else{
+//   greeting = "Good evening";
+// }
+// extra practic
+    
+// var greeting;        
+// var hour = prompt("Please enter the time in 24-hour format (e.g., 1900 for 7 PM):");
+// if (hour <= 18) {
+//     greeting = "Good day";
+// } else {
+//     greeting = "Good evening";
+// }
+// console.log(greeting);
+// alert(greeting);  // Display the greeting message
+// q 077. Write a program that takes time as input from user in 24
+// hours clock format like: 1900 = 7pm. Implement the
+// following case using if, else & else if statements
+// let hour = +prompt("Please enter the time in 24-hour format (e.g., 1900 for 7 PM):");
+// if ( hour < 12){
+//   console.log("Good Morning" + hour)
+//   alert("Good Morning")
+// }
+// else if( hour<18){
+//   console.log("Good Day " + hour)
+//   alert("Good Day")
+// }
+// else{
+//   console.log("Good evening" + hour)
+//   alert("Good evening")
